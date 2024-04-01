@@ -1,8 +1,8 @@
 import click
 
-from project_name.ext.auth import create_user
-from project_name.ext.database import db
-from project_name.models import Product
+from metis.ext.auth import create_user
+from metis.ext.database import db
+from metis.models import Product
 
 
 def create_db():
